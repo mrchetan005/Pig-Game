@@ -62,7 +62,7 @@ btnRoll.addEventListener(`click`, function () {
 
     // 2. Display dice
     diceEl.classList.remove(`hidden`);
-    diceEl.src = `../images/dicee-${dice}.png`;
+    diceEl.src = `../Pig-Game/images/dicee-${dice}.png`;
 
     // 3. Check for rolled 1
     if (dice != 1) {
